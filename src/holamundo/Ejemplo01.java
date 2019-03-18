@@ -19,7 +19,9 @@ public class Ejemplo01 {
 		System.out.println("finalizando mensaje");
 		System.out.println("Mensaje de prueba para git");
 		var texto = "Hola mundillo";
+		var nuevoTexto = "Hola nuevamente";
 		System.out.println(texto);
+		System.out.println(nuevoTexto);
 	}
 
 }
