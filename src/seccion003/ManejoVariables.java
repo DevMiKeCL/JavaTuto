@@ -7,9 +7,9 @@ public class ManejoVariables {
         System.out.println(saludos);
         System.out.println(saludos);
 
-        String despedirse = "despedirse";
+        var despedida = "despedirse";
         System.out.println();
-        System.out.println(despedirse);
+        System.out.println(despedida);
 
 
 

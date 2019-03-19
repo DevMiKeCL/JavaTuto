@@ -1,4 +1,4 @@
-package seccion004;
+package seccion004.old;
 
 public class clase025 {
 
