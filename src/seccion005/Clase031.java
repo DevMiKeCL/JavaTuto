@@ -16,6 +16,7 @@ public class Clase031 {
         //Se evalua 2 + b (teniamos pendiente un decremento de b, vale 2)
         System.out.println(2 + 2);//imprime 4,
         //System.out.println("res = " + res); //es el mismo valor que el valor final
+        System.out.println("res = " + res);
 
 
         //Agrupando con parentesis tenemos:
