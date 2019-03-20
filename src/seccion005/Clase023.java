@@ -2,7 +2,7 @@ package seccion005;
 
 import java.util.Scanner;
 
-public class ejercicio001 {
+public class Clase023 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Proporciona el alto:");
@@ -13,9 +13,5 @@ public class ejercicio001 {
         int perimetro = (alto + ancho) * 2;
         System.out.println("Area: " + area);
         System.out.println("Perimetro: " + perimetro);
-
-
-
-
     }
 }
