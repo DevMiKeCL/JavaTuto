@@ -3,18 +3,21 @@ package seccion006;
 public class Clase035 {
     public static void main(String[] args) {
         var numero = 2;
+        var texto = "numero desconocido";
 
         if (numero == 1) {
-            System.out.println("numero uno");
+            texto = "numero uno";
         }
         else if(numero == 2){
-            System.out.println("numero dos");
+            texto = "numero dos";
         }
         else if (numero == 3) {
-            System.out.println("Numero tres");
+            texto = "numero tres";
         }
         else {
-            System.out.println("numero desconocido");
+            texto = "numero desconocido";
         }
+
+        System.out.println("texto = " + texto);
     }
 }

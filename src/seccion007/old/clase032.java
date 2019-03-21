@@ -1,4 +1,4 @@
-package seccion007;
+package seccion007.old;
 
 public class clase032 {
 
@@ -10,6 +10,7 @@ public class clase032 {
         num = num +1;
         }
         num = 1;
+
         do {
             System.out.println(num);
             num = num +1;

@@ -1,6 +1,6 @@
-package seccion006.old;
+package seccion006;
 
-public class clase030 {
+public class Clase038 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
