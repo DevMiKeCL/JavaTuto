@@ -1,6 +1,6 @@
 package seccion011;
 
-public class Clase044 {
+public class Clase053 {
     public static void main(String[]args){
         // Creamos un objeto de la clase Aritmetica con el constructor vacío
         Aritmetica obj1 = new Aritmetica();

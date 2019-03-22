@@ -1,6 +1,6 @@
 package seccion010;
 
-public class clase042 {
+public class clase051 {
     /*
     Creacion de metodos en java
      */
