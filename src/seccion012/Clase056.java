@@ -1,6 +1,6 @@
 package seccion012;
 
-public class Clase048 {
+public class Clase056 {
     public static void main(String[] args){
         int alto = 2;
         int ancho = 3;

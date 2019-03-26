@@ -1,6 +1,6 @@
 package seccion012;
 
-public class Clase047 {
+public class Clase055 {
     public static void main(String []args){
         //Variables locales
         int operandoA = 6;
@@ -9,7 +9,7 @@ public class Clase047 {
         // creamos un objeto de la clase Aritmetica enviando argumentos
         Aritmetica obj1 = new Aritmetica(operandoA, operandoB);
 
-        //Imprimir oerandos
+        //Imprimir los valores de los operandos
         System.out.println("Operando A: " + operandoA + " y operando B " +operandoB);
 
         //Resultado de la suma
