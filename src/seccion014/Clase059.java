@@ -1,6 +1,6 @@
 package seccion014;
 
-public class Clase051 {
+public class Clase059 {
     //paso de parámetros por valor
 
     public static void main(String[]args){

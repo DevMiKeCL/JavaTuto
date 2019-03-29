@@ -21,7 +21,7 @@ public class Persona {
     }
 
     String obtenerNombre(){
-        return nombre;
+        return this.nombre;
     }
 
     String cambiarApellidoP(String arg1){

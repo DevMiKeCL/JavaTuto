@@ -3,7 +3,7 @@ package seccion014;
 public class Clase052 {
     public static void main(String []args){
         Persona p = new Persona();
-        p.cambiarNombre("Juan");
+        p.cambiarNombre("Katherine");
         imprimirNombre(p);
         modificarPersona(p);
         imprimirNombre(p);
