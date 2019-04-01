@@ -33,9 +33,11 @@ public class Clase050 {
                     break;
                 case 2:
                     limpiarPantalla();
+                    System.out.print(ConsoleColors.BLACK_BACKGROUND + ConsoleColors.RED_BOLD);
                     p.imprimirNombre();
                     p.imprimirApellidoP();
                     p.imprimirApellidoM();
+                    System.out.println(ConsoleColors.RESET);
 
                     break;
                     default:

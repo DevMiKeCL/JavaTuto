@@ -15,8 +15,8 @@ public class Persona {
 
     }
 
-    String cambiarNombre(String arg1){
-        this.nombre = arg1;
+    String cambiarNombre(String nuevoNombre){
+        this.nombre = nuevoNombre;
         return nombre;
     }
 
