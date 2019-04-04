@@ -1,6 +1,6 @@
 package seccion015;
 
-public class Clase053 {
+public class Clase060 {
     public static void main(String []args){
         int resultado = sumar(3,6);
         System.out.println("Resultado: " + resultado);
