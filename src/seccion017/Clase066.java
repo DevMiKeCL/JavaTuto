@@ -1,6 +1,6 @@
 package seccion017;
 
-public class Clase058 {
+public class Clase066 {
     public static void main(String[]args){
         Persona p1 = new Persona("Katherine");
         System.out.println("Nombre p1: " + p1.obtenerNombre());

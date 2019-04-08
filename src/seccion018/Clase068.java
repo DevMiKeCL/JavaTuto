@@ -1,6 +1,6 @@
 package seccion018;
 
-public class Clase060 {
+public class Clase068 {
     public static void main(String [] args){
         Persona p1 = new Persona();
         //Marca error

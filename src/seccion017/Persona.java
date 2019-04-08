@@ -20,7 +20,7 @@ class Persona {
     }
 
     public String obtenerNombre(){//Uso de public en un metodo
-        return nombre;
+        return this.nombre;
     }
 
 

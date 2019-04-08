@@ -1,8 +1,9 @@
 package seccion016;
 
-public class Clase056 {
+public class Clase064 {
     public static void main(String[]args){
         Persona p = new Persona("MiKe");
+        p.imprimirNombre();
     }
 }
 
@@ -15,6 +16,10 @@ class Persona{
         //imprimimos el objeto Persona
         Imprimir i = new Imprimir();
         i.imprimir(this);//this es el objeto Persona (actual)
+    }
+
+    public void imprimirNombre(){
+        System.out.println("persona this.nombre = " + this.nombre);
     }
 }
 
