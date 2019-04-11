@@ -1,6 +1,6 @@
 package seccion019;
 
-public class Clase062 {
+public class Clase071 {
 
     public static void main(String []args){
         Persona p1 = new Persona("MiKe");
@@ -8,6 +8,8 @@ public class Clase062 {
 //        Persona p2 = new Persona("MiKe");
         System.out.println(p1);
         System.out.println(p2);
+        p1 = new Persona("DJ");
+        System.out.println(p1);
 //        imprimimos el contaorPersonas
         System.out.println("No. Personas: " + Persona.getContadorPersonas());
     }
