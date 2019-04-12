@@ -6,7 +6,7 @@ public class Persona {
     private int edad;
     private static int contadorPersona;
 
-    public Persona(){
+    private Persona(){
         this.idPersona = ++contadorPersona;
     }
 
@@ -17,7 +17,12 @@ public class Persona {
     }
 
     @Override
-    public String toString(){
-        return "Nombre: " + nombre + " Edad: " + edad + " idPersona: " + idPersona;
+    public String toString() {
+        return "Persona{" +
+                "idPersona=" + idPersona +
+                ", nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                '}';
     }
+
 }

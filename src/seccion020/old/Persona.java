@@ -1,4 +1,4 @@
-package seccion020;
+package seccion020.old;
 
 public class Persona {
     private String nombre;
@@ -6,16 +6,19 @@ public class Persona {
     private int edad;
     private String direccion;
 
-    Persona(){
+    //Constructor vacio
+    public Persona(){
     }
 
-    Persona(String nombre){
+    //Constructor de 1 argumento
+    public Persona(String nombre){
         this.nombre = nombre;
     }
 
-    Persona(String nombre, char genero, int edad, String direccion){
+    //contructor completo
+    public Persona(String nombre, char genero, int edad, String direccion){
         this.nombre = nombre;
-        this.genero = genero;
+        this.genero = genero; //M-masculino F-femenino
         this.edad = edad;
         this.direccion = direccion;
     }
@@ -53,12 +56,8 @@ public class Persona {
     }
 
     @Override
-    public String toString() {
-        return "Persona{" +
-                "nombre='" + nombre + '\'' +
-                ", genero=" + genero +
-                ", edad=" + edad +
-                ", direccion='" + direccion + '\'' +
-                '}';
+    public String toString(){
+        return "Persona{" + "nombre= " + nombre + ", genero= " + genero + ", edad= " + edad +
+                ", direccion= " + direccion + '}';
     }
 }

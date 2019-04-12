@@ -2,24 +2,37 @@ package seccion020;
 
 import java.util.Date;
 
-public class Cliente extends Persona{
-    private int idCliente;
+public class Cliente extends Persona {
     private java.util.Date fechaRegistro;
+    private int idCliente;
     private boolean vip;
-    private static int contadorClientes;
+    private static int contadorCliente;
 
     public Cliente(Date fechaRegistro, boolean vip){
-        this.idCliente = ++contadorClientes;
+        this.idCliente = ++contadorCliente;
         this.fechaRegistro = fechaRegistro;
         this.vip = vip;
+    }
+
+    public static int getContadorCliente() {
+        return contadorCliente;
+    }
+
+
+    public Date getFechaRegistro() {
+        return fechaRegistro;
+    }
+
+    public void setFechaRegistro(Date fechaRegistro) {
+        this.fechaRegistro = fechaRegistro;
     }
 
     public int getIdCliente() {
         return idCliente;
     }
 
-    public Date getFechaRegistro() {
-        return fechaRegistro;
+    public void setIdCliente(int idCliente) {
+        this.idCliente = idCliente;
     }
 
     public boolean isVip() {
@@ -31,14 +44,11 @@ public class Cliente extends Persona{
     }
 
     @Override
-    public String toString(){
-        /*
-        Primero mandamos a llamar el método toString de la clase Persona
-        para que podamos observar los valores de la clase padre
-        y despues imprimimos los valores de la clase hija
-         */
-        return super.toString() + " Cliente{" + "idCliente= " + idCliente + ", fechaRegistro= " +
-                fechaRegistro + ", vip= " + vip + '}';
+    public String toString() {
+        return super.toString() + "Cliente{" +
+                "fechaRegistro=" + fechaRegistro +
+                ", idCliente=" + idCliente +
+                ", vip=" + vip +
+                '}';
     }
-
 }

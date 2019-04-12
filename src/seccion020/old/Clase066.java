@@ -1,4 +1,4 @@
-package seccion020;
+package seccion020.old;
 
 public class Clase066 {
     public static void main(String []args){

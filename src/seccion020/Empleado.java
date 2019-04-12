@@ -1,18 +1,26 @@
 package seccion020;
 
-public class Empleado extends Persona{
+public class Empleado extends Persona {
     private int idEmpleado;
     private double sueldo;
-    private static int contadorEmpleados;
+    private static int contadorEmpleado;
 
     public Empleado(String nombre, double sueldo){
-        super(nombre); //Super debe ser la primera linea
-        this.idEmpleado = ++contadorEmpleados;
+        super(nombre);
+        this.idEmpleado = ++contadorEmpleado;
         this.sueldo = sueldo;
+    }
+
+    public static int getContadorEmpleado() {
+        return contadorEmpleado;
     }
 
     public int getIdEmpleado() {
         return idEmpleado;
+    }
+
+    public void setIdEmpleado(int idEmpleado) {
+        this.idEmpleado = idEmpleado;
     }
 
     public double getSueldo() {
@@ -24,12 +32,10 @@ public class Empleado extends Persona{
     }
 
     @Override
-    public String toString(){
-        /*
-        Primero mandamos a llamar el método toString de la clase Persona
-        para que podamos observar los valores de la clase padre
-        y despues imprimimos los valores de la clase hija
-         */
-        return super.toString() + " Empleado{" + "idEmpleado= " + idEmpleado + ", sueldo= " + sueldo + '}';
+    public String toString() {
+        return super.toString() + "Empleado{" +
+                "idEmpleado= " + idEmpleado +
+                ", sueldo= " + sueldo +
+                '}';
     }
 }
