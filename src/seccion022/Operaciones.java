@@ -13,14 +13,21 @@ public class Operaciones {
         return a + b;
     }
 
+    //Sobrecarga del método sumar
     public static double sumar(int a, double b){
         System.out.println("Método sumar (int,double)");
         return a + b;
     }
 
+    //Sobrecarga del método sumar
     public static double sumar(double a, int b){
         System.out.println("Método sumar (double,int)");
         return a + b;
+    }
+
+    public static int sumar(int a, int b, int c){
+        System.out.println("Metodo sumar (int,int,int)");
+        return a + b + c;
     }
 
 

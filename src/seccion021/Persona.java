@@ -10,6 +10,7 @@ public class Persona {
         this.idPersona = ++contadorPersona;
     }
 
+    //Constructor completo sobrecarga
     public Persona(String nombre, int edad){
         this();
         this.nombre = nombre;
