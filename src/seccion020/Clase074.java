@@ -16,5 +16,6 @@ public class Clase074 {
         cliente1.setEdad(33);
         cliente1.setDireccion("no lo se 123");
         System.out.println("cliente1 = " + cliente1);
+        System.out.println("fin");
     }
 }
