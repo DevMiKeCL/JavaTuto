@@ -4,7 +4,7 @@ public class Persona {
     private int idPersona;
     private String nombre;
     private int edad;
-    private static int contadorPersona;
+    private static int contadorPersona; //se inicia en la clase
 
     private Persona(){
         this.idPersona = ++contadorPersona;

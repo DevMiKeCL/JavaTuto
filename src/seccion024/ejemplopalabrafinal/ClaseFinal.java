@@ -3,9 +3,9 @@ package seccion024.ejemplopalabrafinal;
 public final class ClaseFinal {
 
     //Variables marcadas como finales
-    public static final int varPrimitivo = 10;
+    public static final int VAR_PRIMITIVO = 10;
 
-    public static final Persona persona = new Persona();
+    public static final Persona VAR_PERSONA = new Persona();
 
     //Metodo final
     public final void metodoFinal() {

@@ -30,5 +30,10 @@ public class Operaciones {
         return a + b + c;
     }
 
+    public static double sumar(int a, double b, int c){
+        System.out.println("Metodo sumar (int,double,int)");
+        return a + b + c;
+    }
+
 
 }

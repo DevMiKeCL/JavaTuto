@@ -9,5 +9,6 @@ public class Principal {
         System.out.println("Resultado 5: " + Operaciones.sumar(3,1L));
         System.out.println("Resultado 6: " + Operaciones.sumar(3F,'A'));
         System.out.println("Resultado 7: " + Operaciones.sumar(14,12, 33));
+        System.out.println("Resultado 7: " + Operaciones.sumar(14,5.5, 33));
     }
 }
