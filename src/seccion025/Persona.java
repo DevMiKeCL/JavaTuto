@@ -6,9 +6,9 @@ public class Persona {
     private String apellidoMaterno;
 
     Persona(String arg1, String arg2, String arg3) {
-        this.nombre = arg1;
-        this.apellidoPaterno = arg2;
-        this.apellidoMaterno = arg3;
+        this.setNombre(arg1);
+        this.setApellidoPaterno(arg2);
+        this.setApellidoMaterno(arg3);
     }
 
     Persona() {
@@ -18,9 +18,9 @@ public class Persona {
     @Override
     public String toString() {
         return "Persona{" +
-                "nombre='" + nombre + '\'' +
-                ", apellido paterno='" + apellidoPaterno + '\'' +
-                ", apellido materno='" + apellidoMaterno + '\'' +
+                "nombre='" + getNombre() + '\'' +
+                ", apellido paterno='" + getApellidoPaterno() + '\'' +
+                ", apellido materno='" + getApellidoMaterno() + '\'' +
                 '}';
     }
 

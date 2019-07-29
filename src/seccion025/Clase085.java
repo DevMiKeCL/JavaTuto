@@ -23,6 +23,6 @@ public class Clase085 {
         }
         System.out.println("El numero mayor es: "+ mayor);
         System.out.println("personas[0] = " + personas[0]);
-        System.out.println("personas[1] = " + personas[1]);
+        System.out.println("personas[1] = " + personas[1].getNombre());
     }
 }
