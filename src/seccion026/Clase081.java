@@ -12,14 +12,11 @@ public class Clase081 {
         System.out.println("Ingrese cantidad de numeros a imprimir: ");
         cantidad = sc.nextInt();
         numeros = new int[cantidad];
-
         for (i=0; i<cantidad; i++){
             numeros[i] = i+1;
         }
-
         for (i=0; i<cantidad; i++){
             System.out.println(numeros[i]);
         }
-
     }
 }
