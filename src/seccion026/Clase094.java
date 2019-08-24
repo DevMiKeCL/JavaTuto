@@ -22,5 +22,12 @@ public class Clase094 {
         System.out.println("Matriz enteros indice 1-1: " + edades[1][1]);
         System.out.println("Matriz enteros indice 2-0: " + edades[2][0]);
         System.out.println("Matriz enteros indice 2-1: " + edades[2][1]);
+
+
+        for (int i = 0; i < edades.length; i++){
+            for (int j = 0; j < edades[i].length; j++) {
+                System.out.println("Matriz indice: " + i + " - " + j + " = " + edades[i][j]);
+            }
+        }
     }
 }
