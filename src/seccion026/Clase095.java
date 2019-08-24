@@ -28,6 +28,15 @@ public class Clase095 {
             for (int j = 0; j < personas[i].length; j++) {
                 System.out.println("matriz personas["+i+"]["+j+"] " + personas[i][j]);
             }
+        }
+
+        System.out.println();
+
+        String nombres [][] = {{"Michael", "Maximiliano", "Cristina"}, {"Miguel", "Katherine", "Ana"}};
+        for (int i = 0; i < nombres.length; i++) {
+            for (int j = 0; j < nombres[i].length; j++) {
+                System.out.println("matriz nombres["+i+"]["+j+"] " + nombres[i][j]);
+            }
 
         }
     }
