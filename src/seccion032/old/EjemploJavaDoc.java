@@ -1,23 +1,23 @@
 /**
  * Derechos reservados
  */
-package seccion032;
-import seccion032.Aritmetica;
+package seccion032.old;
+
+import seccion032.old.clases.Aritmetica;
 
 /**
- * Clase para probar el concepto de JavaDoc
- * @author Miguel Peralta
+ * Clase para probar el concepto de javadoc
+ * @author Miguel
  * @version 1.0
  */
-
-
 public class EjemploJavaDoc {
+
     /**
      * Metodo que ejecuta la prueba de la clase Aritmetica
      * @param args argumentos de la linea de comandos
      */
-    public static void main(String[]args){
+    public static void main(String []args){
         int resultado = new Aritmetica(3, 2).sumar();
-        System.out.println("resultado = " + resultado);
+        System.out.println("Resultado: " + resultado);
     }
 }

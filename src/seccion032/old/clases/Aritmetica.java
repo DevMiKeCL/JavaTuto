@@ -1,4 +1,4 @@
-package seccion032.clases;
+package seccion032.old.clases;
 /**
  * Esta clase permite realizar operaciones de aritmetica como sumar, restar, etc
  * @author : Miguel Peralta
