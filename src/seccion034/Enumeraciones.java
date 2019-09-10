@@ -16,7 +16,7 @@ public class Enumeraciones {
 //        Valores de enumeracion
         System.out.println("Valor 1: " + Dias.LUNES);
 
-//        Hacemos un test del día utilizado
+//        Hacemos un Prueba del día utilizado
         indicarDia(Dias.LUNES);
     }
 
