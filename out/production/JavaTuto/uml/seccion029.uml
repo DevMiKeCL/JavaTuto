@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="153.96746031746028" y="-1.0">seccion029.DispositivoEntrada</node>
+    <node x="143.38809523809522" y="967.0">seccion029.Orden</node>
+    <node x="256.2083333333333" y="356.0">seccion029.Teclado</node>
+    <node x="-430.0" y="360.0">seccion029.Raton</node>
+    <node x="77.625" y="622.0">seccion029.Computadora</node>
+    <node x="267.1380952380953" y="1276.0">seccion029.MundoPC</node>
+    <node x="466.2083333333333" y="279.0">seccion029.Monitor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="seccion029.Raton" target="seccion029.DispositivoEntrada">
+      <point x="44.75" y="-59.5" />
+      <point x="134.25" y="259.0" />
+      <point x="210.21746031746028" y="259.0" />
+      <point x="-30.75" y="114.5" />
+    </edge>
+    <edge source="seccion029.Teclado" target="seccion029.DispositivoEntrada">
+      <point x="47.5" y="-59.5" />
+      <point x="398.7083333333333" y="259.0" />
+      <point x="333.2174603174603" y="259.0" />
+      <point x="92.25" y="114.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="399.0" />
+  <SelectedNodes>
+    <node>seccion029.DispositivoEntrada</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
