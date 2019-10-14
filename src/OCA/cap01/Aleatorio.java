@@ -6,5 +6,6 @@ public class Aleatorio {
     public static void main(String[] args) {
         Random r = new Random();
         System.out.println(r.nextInt(1000));
+        // imprime valor random
     }
 }
